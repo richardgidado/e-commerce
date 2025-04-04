@@ -11,49 +11,49 @@ interface FurnitureItem {
 // Furniture-specific data
 const furnitureItems: FurnitureItem[] = [
   {
-    id: 1,
+    id: 17,
     name: 'Wooden Dining Chair',
     price: '$49.99',
     image: '/images/dining-chair.jpg',
   },
   {
-    id: 2,
+    id: 18,
     name: 'Modern Sofa',
     price: '$299.99',
     image: '/images/sofa.jpg',
   },
   {
-    id: 3,
+    id: 19,
     name: 'Glass Coffee Table',
     price: '$129.99',
     image: '/images/coffee-table.jpg',
   },
   {
-    id: 4,
+    id: 20,
     name: 'Bookshelf',
     price: '$89.99',
     image: '/images/bookshelf.jpg',
   },
   {
-    id: 5,
+    id: 21,
     name: 'King Size Bed',
     price: '$499.99',
     image: '/images/bed.jpg',
   },
   {
-    id: 6,
+    id: 22,
     name: 'Floor Lamp',
     price: '$39.99',
     image: '/images/lamp.jpg',
   },
   {
-    id: 7,
+    id: 23,
     name: 'Wardrobe Closet',
     price: '$249.99',
     image: '/images/wardrobe.jpg',
   },
   {
-    id: 8,
+    id: 24,
     name: 'Window Blinds',
     price: '$39.99',
     image: '/images/window1.jpg',

@@ -11,49 +11,49 @@ interface FashionItem {
 // Fashion-specific data
 const fashionItems: FashionItem[] = [
   {
-    id: 1,
+    id: 25,
     name: 'Denim Jacket',
     price: '$59.99',
     image: '/images/denim.jpg',
   },
   {
-    id: 2,
+    id: 26,
     name: 'Leather Boots',
     price: '$89.99',
     image: '/images/boots.jpg',
   },
   {
-    id: 3,
+    id: 27,
     name: 'Silk Scarf',
     price: '$29.99',
     image: '/images/scarf.jpg',
   },
   {
-    id: 4,
+    id: 28,
     name: 'Slim Fit Jeans',
     price: '$49.99',
     image: '/images/slim-jeans.jpg',
   },
   {
-    id: 5,
+    id: 29,
     name: 'Sunglasses',
     price: '$39.99',
     image: '/images/sunglasses.jpg',
   },
   {
-    id: 6,
+    id: 30,
     name: 'Cotton T-Shirt',
     price: '$19.99',
     image: '/images/t-shirt.jpg',
   },
   {
-    id: 7,
+    id: 31,
     name: 'Wool Coat',
     price: '$129.99',
     image: '/images/wool-coat.jpg',
   },
   {
-    id: 8,
+    id: 32,
     name: 'Leather Belt',
     price: '$24.99',
     image: '/images/leather-belt.jpg',

@@ -11,49 +11,49 @@ interface BeverageItem {
 // Beverages-specific data
 const beverageItems: BeverageItem[] = [
   {
-    id: 1,
+    id: 41,
     name: 'Budweiser',
     price: '$4.99',
     image:'/images/budw.jpg', 
   },
   {
-    id: 2,
+    id: 42,
     name: 'Milo',
     price: '$2.99',
     image: '/images/milo.jpg',
   },
   {
-    id: 3,
+    id: 43,
     name: 'Skippy',
     price: '$3.49',
     image: '/images/skippy.jpg',
   },
   {
-    id: 4,
+    id: 44,
     name: 'Golden Morn',
     price: '$6.99',
     image: '/images/morn.jpg',
   },
   {
-    id: 5,
+    id: 45,
     name: 'Coco Pops',
     price: '$3.99',
     image: '/images/cocopops.jpg',
   },
   {
-    id: 6,
+    id: 46,
     name: 'Cola',
     price: '$1.99',
     image: '/images/cola.jpg',
   },
   {
-    id: 7,
+    id: 47,
     name: 'Red Wine',
     price: '$19.99',
     image: '/images/red-wine.jpg',
   },
   {
-    id: 8,
+    id: 48,
     name: 'Strawberry Jam',
     price: '$7.49',
     image: '/images/lemonade.jpg',

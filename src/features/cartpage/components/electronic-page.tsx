@@ -11,49 +11,49 @@ interface ElectronicItem {
 // Electronics-specific data
 const electronicItems: ElectronicItem[] = [
   {
-    id: 1,
+    id: 33,
     name: 'Wireless Headphones',
     price: '$99.99',
     image: '/images/wireless-headphones.jpg',
   },
   {
-    id: 2,
+    id: 34,
     name: 'Smart TV 55"',
     price: '$499.99',
     image: '/images/smart-tv.jpg',
   },
   {
-    id: 3,
+    id: 35,
     name: 'Bluetooth Speaker',
     price: '$59.99',
     image: '/images/bluetooth-speaker.jpg',
   },
   {
-    id: 4,
+    id: 36,
     name: 'Lenovo Legion Laptop 16GB RAM',
     price: '$899.99',
     image: '/images/laptop.jpg',
   },
   {
-    id: 5,
+    id: 37,
     name: 'Smartwatch',
     price: '$199.99',
     image: '/images/smartwatch.jpg',
   },
   {
-    id: 6,
+    id: 38,
     name: 'Portable Charger',
     price: '$29.99',
     image: '/images/portable-charger.jpg',
   },
   {
-    id: 7,
+    id: 39,
     name: 'PS 5 Console',
     price: '$399.99',
     image: '/images/ps5.jpg',
   },
   {
-    id: 8,
+    id: 40,
     name: 'Digital Camera',
     price: '$349.99',
     image: '/images/digital-camera.jpg',

@@ -11,49 +11,49 @@ interface PhoneItem {
 // Phones-specific data
 const phoneItems: PhoneItem[] = [
   {
-    id: 1,
+    id: 9,
     name: 'iPhone 14 Pro',
     price: '$999.99',
     image: '/images/iphone-14-pro.jpg',
   },
   {
-    id: 2,
+    id: 10,
     name: 'Samsung Galaxy S23',
     price: '$799.99',
     image: '/images/galaxy-s23.jpg',
   },
   {
-    id: 3,
+    id: 11,
     name: 'Google Pixel 8',
     price: '$699.99',
     image: '/images/pixel-8.jpg',
   },
   {
-    id: 4,
+    id: 12,
     name: 'OnePlus 11',
     price: '$649.99',
     image: '/images/oneplus-11.jpg',
   },
   {
-    id: 5,
+    id: 13,
     name: 'Xiaomi 13',
     price: '$599.99',
     image: '/images/xiaomi-13.jpg',
   },
   {
-    id: 6,
+    id: 14,
     name: 'Nokia G50',
     price: '$249.99',
     image: '/images/nokia-g50.jpg',
   },
   {
-    id: 7,
+    id: 15,
     name: 'Sony Xperia 1 V',
     price: '$899.99',
     image: '/images/xperia-1-v.jpg',
   },
   {
-    id: 8,
+    id: 16,
     name: 'Motorola Edge 40',
     price: '$549.99',
     image: '/images/moto-edge-40.jpg',
