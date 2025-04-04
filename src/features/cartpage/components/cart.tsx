@@ -43,6 +43,8 @@ const CartPage: NextPage = () => {
                     <Image
                       src={item.image}
                       alt={item.name}
+                      width={96}  
+                      height={96}
                       className="w-24 h-24 object-cover rounded mr-4"
                     />
                     <div className="flex-1">

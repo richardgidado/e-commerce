@@ -57,24 +57,24 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
           className="fixed inset-0 bg-gray-900/80 transition-opacity duration-300 ease-linear data-closed:opacity-0"
         />
 
-        <div className="fixed inset-0 flex bg-green-800">
+        <div className="fixed inset-0 flex bg-sky-800">
           <DialogPanel
             transition
             className="relative mr-16 flex w-full max-w-xs flex-1 transform transition duration-300 ease-in-out data-closed:-translate-x-full"
           >
             <TransitionChild>
-              <div className="absolute top-0 left-full flex w-16 justify-center pt-5 duration-300 ease-in-out data-closed:opacity-0 bg-green-800">
+              <div className="absolute top-0 left-full flex w-16 justify-center pt-5 duration-300 ease-in-out data-closed:opacity-0 bg-sky-800">
                 <button type="button" onClick={onClose} className="-m-2.5 p-2.5">
                   <span className="sr-only">Close sidebar</span>
                   <XMarkIcon aria-hidden="true" className="size-6 text-white" />
                 </button>
               </div>
             </TransitionChild>
-            <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-green-800 px-6 pb-4 text-white">
-              <div className="flex h-16 shrink-0 items-center">
+            <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-sky-800 px-6 pb-4 text-white">
+              <div className="flex h-16 shrink-0 items-center bg-sky-800">
                 <img
                   alt="Your Company"
-                  src="/images/logosty.png"
+                  src="/images/uplogo.jpg"
                   className="h-8 w-auto" 
                 />
               </div>
@@ -130,12 +130,12 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
 
       {/* Desktop Sidebar */}
       <div className="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col bg-sky-800">
-        <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-black px-6 pb-4 text-white bg-sky-800">
+        <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-sky-800 px-6 pb-4 text-white bg-sky-800">
           <div className="flex h-16 shrink-0 items-center bg-sky-800">
             <img
               alt="Your Company"
               src="/images/uplogo.jpg"
-              className="h-8 w-20 filter invert" // Invert logo to white
+              className="h-8 w-20" 
             />
           </div>
           <nav className="flex flex-1 flex-col">
