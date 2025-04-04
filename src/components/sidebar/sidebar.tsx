@@ -110,17 +110,17 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
 
                   </li>
                   <li className="mt-auto">
-                    <a
-                      href="#"
-                      className="group -mx-2 flex gap-x-3 rounded-md p-2 text-sm font-semibold text-white hover:bg-gray-800 hover:text-white"
-                    >
-                      <Cog6ToothIcon
-                        aria-hidden="true"
-                        className="size-6 shrink-0 text-gray-300 group-hover:text-white"
-                      />
-                      Settings
-                    </a>
-                  </li>
+              <Link
+                  href="#" onClick={handleLogout}
+                  className="group -mx-2 flex gap-x-3 rounded-md p-2 text-sm font-semibold text-white hover:bg-gray-800 hover:text-white"
+                >
+                  <FaSignOutAlt
+                    aria-hidden="true"
+                    className="size-6 shrink-0 text-gray-300 group-hover:text-white"
+                  />
+                  Sign Out
+                </Link>
+                </li>
                 </ul>
               </nav>
             </div>
