@@ -32,8 +32,7 @@ export default function LoginForm() {
     try {
       // Mock authentication delay
       await new Promise(resolve => setTimeout(resolve, 800));
-      
-      // Set the cookie name to match middleware (accessToken)
+  
       document.cookie = `accessToken=simulated-token; path=/; max-age=86400`;
 
       if (

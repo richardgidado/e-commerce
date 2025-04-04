@@ -4,6 +4,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import { useCartStore } from '@/lib/cartStore';
+import Image from 'next/image';
 
 const CartPage: NextPage = () => {
   const { items, updateQuantity, removeItem } = useCartStore();
@@ -39,7 +40,7 @@ const CartPage: NextPage = () => {
                     key={item.id}
                     className="flex items-center bg-white p-4 rounded-lg shadow mb-4"
                   >
-                    <img
+                    <Image
                       src={item.image}
                       alt={item.name}
                       className="w-24 h-24 object-cover rounded mr-4"
