@@ -15,6 +15,7 @@ interface ProductProps {
   }
 }
 
+
 export function SingleStatisicCard({ data }: ProductProps) {
   const {addItem}= useCartStore();
   const [isAdding, setIsAdding] = useState(false); // Optional: for visual feedback

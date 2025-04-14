@@ -8,7 +8,6 @@ import {
   TransitionChild,
 } from '@headlessui/react'
 import {
-  Cog6ToothIcon,
   XMarkIcon
 } from '@heroicons/react/24/outline'
 import Link from 'next/link'
@@ -89,7 +88,7 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
                             className={classNames(
                               item.current
                                 ? 'bg-gray-800 text-white'
-                                : 'text-white hover:bg-sky-200 hover:text-white',
+                                : 'text-white hover:bg-gray-800 hover:text-white',
                               'group flex gap-x-3 rounded-md p-2 text-sm font-semibold'
                             )}
                           >
@@ -149,7 +148,7 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
                         className={classNames(
                           item.current
                             ? 'bg-gray-800 text-white'
-                            : 'text-white hover:bg-sky-500 hover:text-white',
+                            : 'text-white hover:bg-gray-800 hover:text-white',
                           'group flex gap-x-3 rounded-md p-2 text-sm font-semibold'
                         )}
                       >
