@@ -13,15 +13,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Africa No1 E-Commerce",
+  title: "Africa No1 E-Commerce Platform",
   description: "e-commerce",
   openGraph: {
     images: [
       {
-        url: "/images/uplogo.jpg", // Path to your image in the public folder
+        url: "/public/next.svg", // Path to your image in the public folder
         width: 800,
         height: 600,
-        alt: "Africa's Best E-Commerce Platform",
+        alt: "Africa's Best E-Commerce Platform", 
       },
     ],
   },
